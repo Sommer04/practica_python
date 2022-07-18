@@ -1,4 +1,5 @@
-# Escribir un programa que pida al usuario 3 números por teclado,y diga cual es el mayor y el menor de los3 números.
+# Escribir un programa que pida al usuario 3 números por teclado,
+# y diga cual es el mayor y el menor de los3 números.
 
 numero_1 = int(input("Ingrese el primer numero: "))
 numero_2 = int(input("Ingrese el segundo numero: "))

@@ -25,3 +25,6 @@ elif numero_3 > numero_1  and numero_3 > numero_2:
         print("el numero menor es ", numero_2)
     else:
         print("el numero menor es ", numero_1)
+else:
+    print("existen numeros iguales")
+

@@ -4,7 +4,6 @@
 # de manera indefinida pidiendo el número hasta que el usuario ingrese un número entre 1 y 10.
 ##
 
-
 i = 0
 while i < 1 or i > 10:
     i = int(input('ingrese el  numero dentro del rango 1 y 10 '))

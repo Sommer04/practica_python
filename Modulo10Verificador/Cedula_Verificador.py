@@ -1,6 +1,6 @@
 #algoritmo de lunth el cual te dice cual es el ultimo numero verificador que debe tener tu cedula para que sea valida. para eso toma
 # los primeros 10 digitos de tu id y realiza una operacion para determinar cual debe de ser tu ultimo digito valido
-cedula = list(map(int, list(input('Enter the credit card number : '))))
+cedula = list(map(int, list(input('Ingrese su cedula a validar : '))))
 cedula.reverse()
 num_verificador = cedula.pop(0)
 
@@ -23,6 +23,6 @@ total %= 10 #el resulado al dividir el total de la suma de cada numero de la ced
 #para saber si es el mismo numero
 
 if total == num_verificador:
-    print('cedula valida', cedula )
+    print('cedula valida')
 else:
-    print('cedula invalida', str(cedula))
+    print('cedula invalida')

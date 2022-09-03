@@ -18,7 +18,6 @@ for i in range(len(cedula)):
 
 
 total = sum(cedula) * 9
-print(total)
 total %= 10 #el resulado al dividir el total de la suma de cada numero de la cedula *9 entre 10 se utilizara para verificas el ultimo numero de la cedula
 #para saber si es el mismo numero
 
